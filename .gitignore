@@ -1,0 +1,56 @@
+# ==========================================
+# Swift Package Manager (SPM) Artifacts
+# ==========================================
+.build/
+Packages/
+Package.pins
+Package.resolved
+
+# Exception: Keep Package.resolved ONLY if your package is an executable application
+# (Uncomment the line below if you want to commit version locks for an app)
+# !Package.resolved
+
+# ==========================================
+# macOS System Files
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ==========================================
+# Xcode User Data & Caches (If editing via Xcode)
+# ==========================================
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+.xcschemes/
+*.xcuserstate
+*.xcuserdatad
+
+# ==========================================
+# Development Tools & Backups
+# ==========================================
+.swp
+*~
+*.bak
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# ==========================================
+# SwiftPM Xcode Project Settings
+# ==========================================
+.swiftpm/*
+!.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+!.swiftpm/xcode/xcshareddata/
